@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Star Wars Character Search Backend",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13"
+  }
+}
